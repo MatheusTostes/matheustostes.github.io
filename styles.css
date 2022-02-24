@@ -1,0 +1,67 @@
+:root {
+    --cyan: #DFF6FF;
+    --violet-100: #5D8BF4;
+    --violet-200: #2D31FA;
+    --violet-300: #051367;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: var(--cyan);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    width: 100%;
+    background-color: var(--violet-300);
+    color: var(--cyan);
+    padding: 1em 0;
+    font-family: sans-serif;
+    font-weight: 900;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 2em;
+}
+
+ul {
+    color: #5D8BF4;
+    margin: 1em;
+    display: flex;
+    gap: 3em;
+}
+
+li a{
+    color: var(--violet-100);
+}
+
+img {
+    border-radius: 50%;
+    margin: 1em;
+}
+
+p {
+    color: var(--violet-300);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a img {
+    border-radius: 50%;
+}
+
+.ability {
+    font-size: 1.2em;
+}

@@ -17,8 +17,10 @@
         <div class="github">
             <a  href="https://github.com/MatheusTostes" 
                 target="_blank">
-                <img class="github-logo" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
-                alt="github logo">
+                <img 
+                    class="github-logo" 
+                    src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" 
+                    alt="github logo">
                 <p>GitHub</p>
             </a>
         </div>
@@ -69,23 +71,61 @@
                 <h3>Childrens</h3>
                 <div class="childrens">
                     <div class="cat">
-                        <img src="./images/loki.gif" alt="loki gato">
+                        <img src="loki.gif" alt="loki gato">
                         <p>Loki</p>
                     </div>
                     <div class="cat">
-                        <img src="./images/sirius.gif" alt="sirius gato">
+                        <img src="sirius.gif" alt="sirius gato">
                         <p>Sirius</p>
                     </div>
                 </div>
             </div>
-                
+
+            <!-- <script type="text/javascript">
+
+                var clicks = 0;
+                function hello() {
+                    clicks += 1;
+                    document.getElementById("clicks").innerHTML = clicks;
+                };
+            </script>
+            <button type="button" onclick="hello()">Click me</button>
+            <p>Clicks: <a id="clicks">0</a></p> -->
+            
         </div>
 
         <div class="portfolio">
 
-            <div class="project">
+            <script type="text/javascript" src="projects.js"></script>
+
+            <script>
+                let projs = ''
+                for (i of projects) {
+                    let proj = `
+                        <div class="project">
+                            <a href=${i.url} target="_blank">
+                                <img src=${i.pic} alt=${i.alt}>
+                                <h5>${i.title}</h5>
+                                <p>${i.techs}</p>
+                            </a>
+                        </div>
+                    `
+                    projs += proj
+                }
+
+                document.querySelector(".portfolio").insertAdjacentHTML( 'afterbegin', projs )
+            </script>
+
+           <!-- <div class="project">
                 <a href="https://crm-ocean.vercel.app/" target="_blank">
-                    <img src="./images/crm.png" alt="crm Ocean">
+                    <img src="crm.png" alt="crm Ocean">
+                    <h5>CRM Ocean</h5>
+                    <p>ReactJs | ChartJs | Styled Components</p>
+                </a>
+            </div> -->
+            <!-- <div class="project">
+                <a href="https://crm-ocean.vercel.app/" target="_blank">
+                    <img src="crm.png" alt="crm Ocean">
                     <h5>CRM Ocean</h5>
                     <p>ReactJs | ChartJs | Styled Components</p>
                 </a>
@@ -93,7 +133,7 @@
 
             <div class="project">
                 <a href="https://landing-page-vert.vercel.app/" target="_blank">
-                    <img src="./images/landing-page.png" alt="landing page">
+                    <img src="landing-page.png" alt="landing page">
                     <h5>Landing Page</h5>
                     <p>HTML | CSS</p>
                 </a>
@@ -101,7 +141,7 @@
             
             <div class="project">
                 <a href="https://covid19-ml-doctor.herokuapp.com/" target="_blank">
-                    <img src="./images/covid-19-ml-doctor.png" alt="Covid-19 Machine Learning Doctor">
+                    <img src="covid-19-ml-doctor.png" alt="Covid-19 Machine Learning Doctor">
                     <h5>Covid-19 Machine Learning Doctor</h5>
                     <p>Python | Pandas | Machine Learning | Bootstrap | Flask</p>
                 </a>
@@ -109,11 +149,11 @@
 
             <div class="project">
                 <a href="https://github.com/MatheusTostes/analise-socioeconomica" target="_blank">
-                    <img src="./images/economic-social-condition.png" alt="landing page">
+                    <img src="economic-social-condition.png" alt="landing page">
                     <h5>Economic Social Condition</h5>
                     <p>Python | Pandas | WebScraping | Urllib | Matplotlib</p>
                 </a>
-            </div>
+            </div> -->
 
         </div>
     </div>

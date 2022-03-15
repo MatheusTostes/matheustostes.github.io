@@ -23,7 +23,7 @@ h3 {
 }
 
 header {
-    height: 7em;
+    height: 15vh;
     width: 100%;
     background-color: var(--white);
     display: flex;

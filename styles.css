@@ -34,17 +34,23 @@ header {
     box-shadow: 0 5px 10px rgba(184, 206, 239, 0.6);
 }
 
-.github {
+.social {
     margin-left: 2em;
     display: flex;
+    transition: 1s;
 }
 
-.github p{
+.social:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.social p{
     line-height: 0;
     font-size: 0.7rem;
 }
 
-.github-logo {
+.social-logo {
     width: 2em;
     border-radius: 50%;
 }

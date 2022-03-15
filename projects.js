@@ -33,19 +33,11 @@ const projects = [
     },
     {
         "cat":"development",
-        "url":"https://github.com/MatheusTostes/analise-socioeconomica",
-        "pic":"economic-social-condition.png" , 
-        "title":"Economic Social Condition",
-        "altPic":"landing page",
-        "techs":"Python | Pandas | WebScraping | Urllib | Matplotlib"
-    },
-    {
-        "cat":"development",
-        "url":"https://github.com/MatheusTostes/analise-socioeconomica",
-        "pic":"economic-social-condition.png" , 
-        "title":"Economic Social Condition",
-        "altPic":"landing page",
-        "techs":"Python | Pandas | WebScraping | Urllib | Matplotlib"
+        "url":"https://github.com/MatheusTostes/matheustostes.github.io",
+        "pic":"portfolio.png" , 
+        "title":"Portfolio",
+        "altPic":"teste",
+        "techs":"HTML | CSS | JavaScript"
     }
 ]
 

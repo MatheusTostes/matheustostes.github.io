@@ -1,6 +1,14 @@
 const projects = [
     {
         "cat":"development",
+        "url":"https://anxious-genius.com",
+        "pic":"anxious-genius.png" , 
+        "title":"Genius",
+        "altPic":"genius site",
+        "techs":"HTML | CSS | JavaScript"
+    },
+    {
+        "cat":"development",
         "url":"https://crm-ocean.vercel.app/",
         "pic":"crm.png", 
         "title":"CRM Ocean",
@@ -36,7 +44,7 @@ const projects = [
         "url":"https://github.com/MatheusTostes/matheustostes.github.io",
         "pic":"portfolio.png" , 
         "title":"Portfolio",
-        "altPic":"teste",
+        "altPic":"portfolio",
         "techs":"HTML | CSS | JavaScript"
     }
 ]

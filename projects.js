@@ -46,6 +46,14 @@ const projects = [
         "title":"Portfolio",
         "altPic":"portfolio",
         "techs":"HTML | CSS | JavaScript"
+    },
+    {
+        "cat":"development",
+        "url":"http://anxious-genius.com/introduction-ads",
+        "pic":"ads-project.png" , 
+        "title":"Ads project",
+        "altPic":"ads project",
+        "techs":"HTML | CSS | JavaScript"
     }
 ]
 

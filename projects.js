@@ -51,7 +51,7 @@ const projects = [
         "cat":"development",
         "url":"http://anxious-genius.com/introduction-ads",
         "pic":"ads-project.png" , 
-        "title":"Ads project",
+        "title":"Ads Project",
         "altPic":"ads project",
         "techs":"HTML | CSS | JavaScript"
     }

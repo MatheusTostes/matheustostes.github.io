@@ -1,6 +1,14 @@
 const projects = [
     {
         "cat":"development",
+        "url":"https://destiny-backend-matheustostes.vercel.app/clients/",
+        "pic":"click-counter.jpeg" , 
+        "title":"Click Counter",
+        "altPic":"click counter",
+        "techs":"JavaScript | NodeJs | Express | Insomnia"
+    },
+    {
+        "cat":"development",
         "url":"https://anxious-genius.com",
         "pic":"anxious-genius.png" , 
         "title":"Genius",

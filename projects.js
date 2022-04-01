@@ -1,85 +1,82 @@
 const projects = [
-    {
-        "cat":"development",
-        "url":"https://destiny-backend-matheustostes.vercel.app/clients/",
-        "pic":"click-counter.jpeg" , 
-        "title":"Click Counter",
-        "altPic":"click counter",
-        "techs":"JavaScript | NodeJs | Express | Insomnia"
-    },
-    {
-        "cat":"development",
-        "url":"https://anxious-genius.com",
-        "pic":"anxious-genius.png" , 
-        "title":"Genius",
-        "altPic":"genius site",
-        "techs":"HTML | CSS | JavaScript"
-    },
-    {
-        "cat":"development",
-        "url":"https://crm-ocean.vercel.app/",
-        "pic":"crm.png", 
-        "title":"CRM Ocean",
-        "altPic":"crm Ocean",
-        "techs":"ReactJs | ChartJs | Styled Components"
-    },
-    {
-        "cat":"development",
-        "url":"https://landing-page-vert.vercel.app/",
-        "pic":"landing-page.png",
-        "title":"Landing Page",
-        "altPic":"landing page",
-        "techs":"HTML | CSS"
-    },
-    {
-        "cat":"development",
-        "url":"https://covid19-ml-doctor.herokuapp.com/",
-        "pic":"covid-19-ml-doctor.png",
-        "title":"Covid-19 Machine Learning Doctor",
-        "altPic":"covid-19 machine learning doctor",
-        "techs":"Python | Pandas | Machine Learning | Bootstrap | Flask"
-    },
-    {
-        "cat":"development",
-        "url":"https://github.com/MatheusTostes/analise-socioeconomica",
-        "pic":"economic-social-condition.png" , 
-        "title":"Economic Social Condition",
-        "altPic":"landing page",
-        "techs":"Python | Pandas | WebScraping | Urllib | Matplotlib"
-    },
-    {
-        "cat":"development",
-        "url":"https://github.com/MatheusTostes/matheustostes.github.io",
-        "pic":"portfolio.png" , 
-        "title":"Portfolio",
-        "altPic":"portfolio",
-        "techs":"HTML | CSS | JavaScript"
-    },
-    {
-        "cat":"development",
-        "url":"http://anxious-genius.com/introduction-ads",
-        "pic":"ads-project.png" , 
-        "title":"Ads Project",
-        "altPic":"ads project",
-        "techs":"HTML | CSS | JavaScript"
-    }
-]
-
-       
-                    
-                    
-                    
-                    
-                    
-        
-                    
-                    
-                    
-                    
-                    
-
-                    
-                    
-                    
-                    
-                   
+  {
+    id: 0,
+    cat: 'development',
+    url: 'https://destiny-backend-matheustostes.vercel.app/clients/',
+    pic: 'click-counter.jpeg',
+    gif: 'click-counter.gif',
+    title: 'Click Counter',
+    altPic: 'click counter',
+    techs: 'JavaScript | NodeJs | Express | Insomnia',
+  },
+  {
+    id: 1,
+    cat: 'development',
+    url: 'https://anxious-genius.com',
+    pic: 'anxious-genius.png',
+    gif: 'anxious-genius.gif',
+    title: 'Genius',
+    altPic: 'genius site',
+    techs: 'HTML | CSS | JavaScript',
+  },
+  {
+    id: 2,
+    cat: 'development',
+    url: 'https://crm-ocean.vercel.app/',
+    pic: 'crm.png',
+    gif: 'crm.gif',
+    title: 'CRM Ocean',
+    altPic: 'crm Ocean',
+    techs: 'ReactJs | ChartJs | Styled Components',
+  },
+  {
+    id: 3,
+    cat: 'development',
+    url: 'https://landing-page-vert.vercel.app/',
+    pic: 'landing-page.png',
+    gif: 'landing-page.gif',
+    title: 'Landing Page',
+    altPic: 'landing page',
+    techs: 'HTML | CSS',
+  },
+  {
+    id: 4,
+    cat: 'development',
+    url: 'https://covid19-ml-doctor.herokuapp.com/',
+    pic: 'covid-19-ml-doctor.png',
+    gif: 'covid-19-ml-doctor.gif',
+    title: 'Covid-19 Machine Learning Doctor',
+    altPic: 'covid-19 machine learning doctor',
+    techs: 'Python | Pandas | Machine Learning | Bootstrap | Flask',
+  },
+  {
+    id: 5,
+    cat: 'development',
+    url: 'https://github.com/MatheusTostes/analise-socioeconomica',
+    pic: 'economic-social-condition.png',
+    gif: 'economic-social-condition.gif',
+    title: 'Economic Social Condition',
+    altPic: 'landing page',
+    techs: 'Python | Pandas | WebScraping | Urllib | Matplotlib',
+  },
+  {
+    id: 6,
+    cat: 'development',
+    url: 'https://github.com/MatheusTostes/matheustostes.github.io',
+    pic: 'portfolio.png',
+    gif: 'portfolio.gif',
+    title: 'Portfolio',
+    altPic: 'portfolio',
+    techs: 'HTML | CSS | JavaScript',
+  },
+  {
+    id: 7,
+    cat: 'development',
+    url: 'http://anxious-genius.com/introduction-ads',
+    pic: 'ads-project.png',
+    gif: 'ads-project.gif',
+    title: 'Ads Project',
+    altPic: 'ads project',
+    techs: 'HTML | CSS | JavaScript',
+  },
+];

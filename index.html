@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
     <title>Portfolio - Tostes</title>
 </head>
 <body>
@@ -108,7 +109,7 @@
                     let proj = `
                         <div class="project">
                             <a href=${i.url} target="_blank">
-                                <img src=${i.pic} alt=${i.alt}>
+                                <img id="${i.id}" src=${i.pic} onmouseover="playGif(event)" onmouseout="stopGif(event)" alt=${i.alt}>
                                 <h5>${i.title}</h5>
                                 <p>${i.techs}</p>
                             </a>

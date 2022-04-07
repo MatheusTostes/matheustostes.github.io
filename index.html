@@ -109,7 +109,10 @@
                     let proj = `
                         <div class="project">
                             <a href=${i.url} target="_blank">
-                                <img id="${i.id}" src=${i.pic} onmouseover="playGif(event)" onmouseout="stopGif(event)" alt=${i.alt}>
+                                <img id="${i.id}" src=${i.pic} 
+                                    onmouseover="playGif(event)" 
+                                    onmouseout="stopGif(event)" 
+                                    alt=${i.alt}>
                                 <h5>${i.title}</h5>
                                 <p>${i.techs}</p>
                             </a>
@@ -120,45 +123,6 @@
 
                 document.querySelector(".portfolio").insertAdjacentHTML( 'afterbegin', projs )
             </script>
-
-           <!-- <div class="project">
-                <a href="https://crm-ocean.vercel.app/" target="_blank">
-                    <img src="crm.png" alt="crm Ocean">
-                    <h5>CRM Ocean</h5>
-                    <p>ReactJs | ChartJs | Styled Components</p>
-                </a>
-            </div> -->
-            <!-- <div class="project">
-                <a href="https://crm-ocean.vercel.app/" target="_blank">
-                    <img src="crm.png" alt="crm Ocean">
-                    <h5>CRM Ocean</h5>
-                    <p>ReactJs | ChartJs | Styled Components</p>
-                </a>
-            </div>
-
-            <div class="project">
-                <a href="https://landing-page-vert.vercel.app/" target="_blank">
-                    <img src="landing-page.png" alt="landing page">
-                    <h5>Landing Page</h5>
-                    <p>HTML | CSS</p>
-                </a>
-            </div>
-            
-            <div class="project">
-                <a href="https://covid19-ml-doctor.herokuapp.com/" target="_blank">
-                    <img src="covid-19-ml-doctor.png" alt="Covid-19 Machine Learning Doctor">
-                    <h5>Covid-19 Machine Learning Doctor</h5>
-                    <p>Python | Pandas | Machine Learning | Bootstrap | Flask</p>
-                </a>
-            </div>
-
-            <div class="project">
-                <a href="https://github.com/MatheusTostes/analise-socioeconomica" target="_blank">
-                    <img src="economic-social-condition.png" alt="landing page">
-                    <h5>Economic Social Condition</h5>
-                    <p>Python | Pandas | WebScraping | Urllib | Matplotlib</p>
-                </a>
-            </div> -->
 
         </div>
     </div>

@@ -72,7 +72,7 @@ const projects = [
   {
     id: 7,
     cat: 'development',
-    url: 'http://anxious-genius.com/introduction-ads',
+    url: 'http://anxious-genius.com/introduction-glgads',
     pic: 'ads-project.png',
     gif: 'ads-project.gif',
     title: 'Ads Project',

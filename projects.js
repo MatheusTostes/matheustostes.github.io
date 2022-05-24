@@ -2,6 +2,16 @@ const projects = [
   {
     id: 0,
     cat: 'development',
+    url: 'https://genius-catalog-frontend-matheustostes.vercel.app/',
+    pic: 'https://genius-catalog-frontend-matheustostes.vercel.app/',
+    gif: 'click-counter.gif',
+    title: 'Catalog',
+    altPic: 'catalog',
+    techs: 'JavaScript | NodeJs | Express | JWT | Cors | Axios | PostgreSQL ',
+  },
+  {
+    id: 1,
+    cat: 'development',
     url: 'https://destiny-backend-matheustostes.vercel.app/clients/',
     pic: 'click-counter.jpeg',
     gif: 'click-counter.gif',
@@ -10,7 +20,7 @@ const projects = [
     techs: 'JavaScript | NodeJs | Express | Insomnia',
   },
   {
-    id: 1,
+    id: 2,
     cat: 'development',
     url: 'https://anxious-genius.com',
     pic: 'anxious-genius.png',
@@ -20,7 +30,7 @@ const projects = [
     techs: 'HTML | CSS | JavaScript',
   },
   {
-    id: 2,
+    id: 3,
     cat: 'development',
     url: 'https://crm-ocean.vercel.app/',
     pic: 'crm.png',
@@ -30,7 +40,7 @@ const projects = [
     techs: 'ReactJs | ChartJs | Styled Components',
   },
   {
-    id: 3,
+    id: 4,
     cat: 'development',
     url: 'https://landing-page-vert.vercel.app/',
     pic: 'landing-page.png',
@@ -40,7 +50,7 @@ const projects = [
     techs: 'HTML | CSS',
   },
   {
-    id: 4,
+    id: 5,
     cat: 'development',
     url: 'https://covid19-ml-doctor.herokuapp.com/',
     pic: 'covid-19-ml-doctor.png',
@@ -50,7 +60,7 @@ const projects = [
     techs: 'Python | Pandas | Machine Learning | Bootstrap | Flask',
   },
   {
-    id: 5,
+    id: 6,
     cat: 'development',
     url: 'https://github.com/MatheusTostes/analise-socioeconomica',
     pic: 'economic-social-condition.png',
@@ -60,7 +70,7 @@ const projects = [
     techs: 'Python | Pandas | WebScraping | Urllib | Matplotlib',
   },
   {
-    id: 6,
+    id: 7,
     cat: 'development',
     url: 'https://github.com/MatheusTostes/matheustostes.github.io',
     pic: 'portfolio.png',
@@ -70,7 +80,7 @@ const projects = [
     techs: 'HTML | CSS | JavaScript',
   },
   {
-    id: 7,
+    id: 8,
     cat: 'development',
     url: 'http://anxious-genius.com/introduction-glgads',
     pic: 'ads-project.png',

@@ -133,10 +133,11 @@ header {
 
 .childrens {
     display: flex;
-    gap: 2em;
+    gap: 1em;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    margin-bottom: 3em;
 }
 
 .childrens img {
